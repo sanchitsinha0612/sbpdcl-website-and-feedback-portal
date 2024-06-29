@@ -1,0 +1,159 @@
+body{
+    background-image:linear-gradient(rgba(12, 16, 33, 0.7),rgba(4,9,30,0.7)), url(coverpic.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    margin: 10px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+*{
+    margin: 10px;
+    padding: 0px;
+}
+.biharlogo{
+    position: relative;
+    left: 71px;
+    height: 70px;
+    width: 71px;
+}
+#imgsliding{
+    position: relative;
+    left: 15rem;
+    height: 14rem;
+    margin-bottom: 100px;
+}
+  
+h1{ 
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+}
+h2{
+    border-radius: 10px;
+    background-color: rgb(237, 161, 38);
+    text-align: center;
+    font-size: 40px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Cochin, Georgia, Times, 'Tim es New Roman', serif
+
+}
+
+marquee {
+    font-size: smaller;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+#welcome{
+    color: rgb(231, 224, 225);
+    margin-left: 14%;
+}
+
+.logo{
+    height: 80px;
+    width: 80px;
+}
+.dropdown{
+    display: flex;
+    margin-top: -4%;
+}
+
+a {
+    text-decoration: none;
+  }
+  
+  nav {
+      position: relative;
+      left: 38px;
+      background-color: lightslategray;
+      padding-bottom:10px ;
+      margin-bottom: 50px;
+    font-family: monospace;
+  }
+  
+  ul {
+      opacity: 0.8;
+    background: lightslategray;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  
+  li {
+    color: #fff;
+    background: lightslategray;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+  }
+    
+  li a {
+    color: #fff;
+  }
+  
+  li:hover,
+  li:focus-within {
+    background: rgb(227, 159, 42);
+    cursor: pointer;
+  }
+  
+  li:focus-within a {
+    outline: none;
+  }
+  
+  ul li ul {
+    background: lightslategray;
+    visibility: hidden;
+    opacity: 0.9;
+    min-width: 15rem;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+  }
+  
+  ul li:hover > ul,
+  ul li:focus-within > ul,
+  ul li ul:hover,
+  ul li ul:focus {
+     visibility: visible;
+     opacity: 1;
+     display: block;
+  }
+  
+  ul li ul li {
+    clear: both;
+    width: 69%;
+  }
+  h3{
+    color: rgb(228, 188, 9);
+  
+  }
+ .container{
+   color: aliceblue;
+     margin-bottom: 200px;
+ }
+
+  #marquee2 {
+    font-size: large;
+    font-weight: 400;
+    padding: 10px;
+  background-color: rgb(217, 202, 32);
+  }
+  
+  #greetings{
+      color: beige;
+      font-size: xx-large;
+       margin-left: 27%;
+  }
+  .footer{
+      color: burlywood;
+      margin-left: 8%;
+  }
+  
+  
